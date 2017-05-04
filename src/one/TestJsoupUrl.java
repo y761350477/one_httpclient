@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 public class TestJsoupUrl {
 	public static void main(String[] args) throws ParseException {
         try {
-            //解析Url获取Document对象
+            //解析Url获取Document
             Document document = Jsoup.connect("http://www.open-open.com/jsoup/").get();
             //获取网页源码文本内容
             System.out.println(document.toString());
